@@ -1,0 +1,1 @@
+fun multiPairs ([], _) = [] | multiPairs (_, []) = [] | multiPairs  (x::xs, y::ys) = x*y::multiPairs(xs, ys);
