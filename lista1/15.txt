@@ -1,0 +1,5 @@
+a) o interpretador estava esperando o else, que não pode ficar omisso num if.
+
+b) a multiplicação só pode ser feita entre elementos do mesmo tipo, mas a tentativa foi de multiplicar um int por um real.
+
+c) o casamento de padrões é sequencial, então antes é feito com a primeira linha. como 0 é um caso específico incluso no primeiro padrão, a segunda linha é redundante e nunca vai ser executada.
